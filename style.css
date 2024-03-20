@@ -33,7 +33,7 @@ nav {
 }
 
 .navbar-nav {
-    padding-left: 12% !important;
+    padding-left: 10% !important;
 }
 
 .nav-item a {
@@ -42,7 +42,7 @@ nav {
     font-size: 1rem;
     line-height: 1.5rem;
     font-family: Inter, sans-serif;
-    padding: 0 20px !important;
+    padding: 0 11px !important;
 
 }
 
@@ -69,8 +69,12 @@ input {
     /* Remove margin */
 }
 
+.card_width {
+    width: 360px
+}
+
 .btn_sign {
-    background-color: #181918;
+    background-color: #191919;
     color: var(--color-text-one) !important;
     border-radius: 13px;
     padding: 11px 30px !important;
@@ -82,6 +86,12 @@ input {
     font-size: 45px;
     line-height: 140%;
 
+}
+
+.head_text4 {
+    color: #406F85;
+    font-size: 21px;
+    font-weight: 400;
 }
 
 .text_sub {
@@ -107,7 +117,7 @@ input {
 }
 
 .btn_start {
-    background-color: #181918;
+    background-color: #191919;
     border-radius: 13px;
     padding: 13px 25px;
     border: none;
@@ -116,7 +126,7 @@ input {
 }
 
 .child_wrapper {
-    background-color: #FAEFE6;
+        background-color: #d4b277b0;
     padding: 30px;
     border-radius: 13px;
     height: 105%;
@@ -150,6 +160,7 @@ input {
 }
 
 
+
 .explore-more:hover .arrow {
     transform: translateX(8px);
 }
@@ -157,7 +168,7 @@ input {
 :root {
     --color-primary: #f24822;
     --color-text-one: white;
-    --color-text-two: #FFF6F1;
+    --color-text-two: #e7cc9e9a;
 }
 
 .content {
@@ -174,7 +185,7 @@ input {
 
 .btn_sign2 {
     padding: 0 30px !important;
-    background-color: #181918;
+    background-color: #191919;
     color: var(--color-text-one) !important;
     border-radius: 13px;
     border: none;
@@ -184,9 +195,177 @@ input {
     font-weight: 500;
     font-size: 19px;
 }
-.pm{
+
+.pm {
     margin-left: 100px
 }
-.text_next{
+
+.text_next {
     color: var(--color-primary);
+}
+
+.consult {
+    background-color: #191919;
+    padding: 10% 0;
+}
+
+.card_width {
+    width: 360px;
+}
+
+.sup {
+    font-size: 30px;
+}
+
+.wrapper {
+    background-color: #C1C0C1;
+    border-radius: 10px;
+    text-align: center;
+    padding: 45px 22%;
+    margin-top: 10%;
+}
+
+input::placeholder {
+    text-indent: 10px;
+    font-size: 14px;
+}
+
+.footer {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+@media (max-width: 1195px) {
+    .nav-item a {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: Inter, sans-serif;
+        padding: 0 0 !important;
+
+    }
+
+    .drop_icon {
+        display: none;
+    }
+
+    .btn_sign {
+        background-color: #191919;
+        color: var(--color-text-one) !important;
+        border-radius: 13px;
+        font-size: 13px !important;
+        padding: 11px 28px !important;
+        border: none;
+    }
+
+    .head_text2 {
+        font-weight: 650 !important;
+        font-size: 20px;
+        line-height: 140%;
+
+    }
+
+}
+
+@media (max-width: 1195px) {
+    .nav-item a {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: Inter, sans-serif;
+        padding: 0 11px !important;
+
+    }
+
+    .card_width {
+        width: 300px;
+    }
+
+    .head_text2 {
+        font-weight: 650 !important;
+        font-size: 25px;
+        line-height: 140%;
+
+    }
+
+    .head_text4 {
+        color: #406F85;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .card_p {
+        /* margin-left: 5px !important; */
+    }
+
+}
+
+@media (max-width: 991px) {
+    .sup {
+        font-size: 16px;
+    }
+
+    .child_wrapper {
+        padding: 50px;
+        border-radius: 13px;
+        height: 102%;
+        width: 118%;
+    }
+
+    .card_width {
+        width: 280px;
+    }
+
+    .btn_sign2 {
+        padding: 0 20px !important;
+        background-color: #191919;
+        color: var(--color-text-one) !important;
+        border-radius: 13px;
+        border: none;
+    }
+
+    .img_height {
+        height: 100% !important;
+        width: 82%;
+    }
+
+    .img_height2 {
+        height: 80% !important;
+        width: 95%;
+    }
+
+    .text_sm {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 670px) {
+    .search_sm {
+        display: none;
+    }
+
+    .child_wrapper {
+        background-color: #FAEFE6;
+        padding: 50px;
+        border-radius: 13px;
+        height: 90%;
+        width: 100%;
+        margin: 10px 0 !important;
+
+    }
+
+    .sm_card {
+        margin-right: 10px !important;
+    }
+
+    .card_width {
+        width: 370px;
+        margin-top: 15px;
+    }
+
+    .btn_start {
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    .input_sm{
+        margin-left: 20px;
+    }
 }
