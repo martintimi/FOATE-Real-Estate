@@ -266,6 +266,10 @@ input::placeholder {
     text-indent: 10px;
     font-size: 14px;
 }
+.link_dec:hover{
+    text-decoration: none;
+    color: white !important;
+}
 
 .footer {
     padding-top: 5%;

@@ -1,0 +1,31 @@
+.line-height{
+    line-height: 35px;
+}
+
+h1{
+    font-size: 50px !important;
+    /* line-height: 20px !important; */
+}
+p{
+    font-size: 1.22rem;
+    color: grey;
+    font-weight: 300;    
+}
+.header_3{
+    font-size: 20px;
+}
+.img_edit:hover{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.786);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: 1s;
+}
+.img_edit{
+    padding: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.786);
+    border-radius: 10px;
+
+
+
+}
