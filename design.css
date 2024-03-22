@@ -1,0 +1,46 @@
+.welcome{
+    line-height: 35px !important;
+}
+h4{
+    color: var(--color-primary);
+}
+:root {
+    --color-primary: #f24822;
+    --color-text-one: white;
+    --color-text-two: #e7cc9e9a;
+    --color-text-three: #191919;
+}
+svg{
+    color: var(--color-primary) !important;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.card{
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 40px;
+}
+.container {
+    max-width: 600px;
+  }
+
+  .btn {
+    width: 100%;
+    background-color: var(--color-text-three) !important;
+    color: white !important;
+    border-radius: 6px !important;
+    padding: 10px 0 !important;
+    margin-top: 15px;
+  }
+  @media screen and (max-width: 768px) {
+    .card{
+        width: 100%;
+     
+    }
+  }
