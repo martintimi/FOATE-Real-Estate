@@ -53,75 +53,104 @@
     </nav>
     <div class="home">
         <div class="container">
-    <div class="text-center py-5">
-        <h1 class="head_text">Get in touch</h1>
-        
-        <i class="text_sub pt-3">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble.</i>
-    </div>
-    <div class="wrapper2">
-        <div class="row">
-            <div class="col-md-6 border_left">
-        <h2 class="text-dark pb-3">Send a message</h2>
-        <form action="">
-            <div class="input-container">
-                <input type="text" placeholder="Full Name">
-              </div>
+            <div class="text-center py-5">
+                <h1 class="head_text">Get in touch</h1>
 
-              <div class="input-container2 mt-4">
-                <input type="text" placeholder="Email Address">
-              </div>
-    
-              <div class="input-container3 mt-4">
-                <input type="number" placeholder="Phone Number">
-              </div>
-              <textarea name="" id=""  placeholder=" Message"></textarea>
+                <i class="text_sub pt-3">On the other hand, we denounce with righteous indignation and dislike men who
+                    are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that
+                    they cannot foresee the pain and trouble.</i>
+            </div>
+            <div class="wrapper2">
+                <div class="row">
+                    <div class="col-md-6 border_left">
+                        <h2 class="text-dark pb-3">Send a message</h2>
+                        <form action="">
+                            <div class="input-container">
+                                <input type="text" placeholder="Full Name">
+                            </div>
 
-              <button class="btn btn_start mt-3">Send Request</button>
+                            <div class="input-container2 mt-4">
+                                <input type="text" placeholder="Email Address">
+                            </div>
 
-            </form>
-    </div>
-    </div>
-    </div>
+                            <div class="input-container3 mt-4">
+                                <input type="number" placeholder="Phone Number">
+                            </div>
+                            <textarea name="" id="" placeholder=" Message"></textarea>
 
-</div>
-</div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                            <button class="btn btn_start mt-3">Send Request</button>
 
-    <script>  function incrementCounters() {
-            let counters = [
-                { id: 'counter1', targetValue: 15.4, suffix: 'M' },
-                { id: 'counter2', targetValue: 25, suffix: 'K+' },
-                { id: 'counter3', targetValue: 500, suffix: '' },
-                { id: 'counter4', targetValue: 600, suffix: '+' }
-            ];
+                        </form>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 contact">
+                        <div>
+                            <h3>Office Address</h3>
+                            <p class="text-muted mb-0">1421 San Pedro St, Los Angeles,</p>
+                            <p class="text-muted">CA 90015</p>
+                            <p class="text-muted"> <img src="./contact_img/img_icon_20px_call.svg" alt=""> &nbsp;(123)
+                                456-7890</p>
+                            <p class="text-muted"> <img src="./contact_img/img_icon_24px_email.svg" alt=""> &nbsp;
+                                info@mail.com </p>
 
-            counters.forEach(counter => {
-                let counterElement = document.getElementById(counter.id);
-                let incrementAmount = counter.targetValue / 100;
-                let currentCount = 0;
 
-                let timer = setInterval(function () {
-                    currentCount += incrementAmount;
-                    counterElement.textContent = currentCount.toFixed(1) + counter.suffix;
+                            <div class="mt-5">
+                                <h3>Social</h3>
+                                <div class="d-flex">
+                                    <img src="./contact_img/img_social_icon_facebook.svg" alt="">
+                                    <img class="ml-3" src="/contact_img/img_social_icon_linkedin.svg" alt="">
+                                    <img class="ml-3" src="/contact_img/img_social_icon_twitter.svg" alt="">
+                                    <img class="ml-3" src="./contact_img/img_social_icon_youtube.svg" alt="">
+                                    <img class="ml-3" src="/contact_img/img_social_icon_rss.svg" alt="">
 
-                    if (currentCount >= counter.targetValue) {
-                        clearInterval(timer);
-                        counterElement.textContent = counter.targetValue + counter.suffix;
-                    }
-                }, 10);
-            });
-        }
+                                </div>
+                            </div>
 
-        // Call the function when the page is loaded
-        window.onload = function () {
-            incrementCounters();
-        };</script>
 
-    <script>
-        function redirectToPage() {
-            window.location.href = 'login.html';
-        }
-    </script>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <script>  function incrementCounters() {
+                let counters = [
+                    { id: 'counter1', targetValue: 15.4, suffix: 'M' },
+                    { id: 'counter2', targetValue: 25, suffix: 'K+' },
+                    { id: 'counter3', targetValue: 500, suffix: '' },
+                    { id: 'counter4', targetValue: 600, suffix: '+' }
+                ];
+
+                counters.forEach(counter => {
+                    let counterElement = document.getElementById(counter.id);
+                    let incrementAmount = counter.targetValue / 100;
+                    let currentCount = 0;
+
+                    let timer = setInterval(function () {
+                        currentCount += incrementAmount;
+                        counterElement.textContent = currentCount.toFixed(1) + counter.suffix;
+
+                        if (currentCount >= counter.targetValue) {
+                            clearInterval(timer);
+                            counterElement.textContent = counter.targetValue + counter.suffix;
+                        }
+                    }, 10);
+                });
+            }
+
+            // Call the function when the page is loaded
+            window.onload = function () {
+                incrementCounters();
+            };</script>
+
+        <script>
+            function redirectToPage() {
+                window.location.href = 'login.html';
+            }
+        </script>
 </body>

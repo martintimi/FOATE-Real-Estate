@@ -46,7 +46,7 @@ nav ul {
     width: 100%;
   }
 .nav-item a:hover{
-    color: #191919;
+    color:  var(--color-text-three);
 }
 .home {
     background-color: var(--color-text-two);
@@ -206,6 +206,7 @@ input {
     --color-primary: #f24822;
     --color-text-one: white;
     --color-text-two: #e7cc9e9a;
+    --color-text-three: #191919;
 }
 
 .content {
@@ -222,7 +223,7 @@ input {
 
 .btn_sign2 {
     padding: 0 30px !important;
-    background-color: #191919;
+    background-color:  var(--color-text-three);
     color: var(--color-text-one) !important;
     border-radius: 13px;
     border: none;
@@ -242,7 +243,7 @@ input {
 }
 
 .consult {
-    background-color: #191919;
+    background-color:  var(--color-text-three);
     padding: 10% 0;
 }
 
@@ -290,7 +291,7 @@ input::placeholder {
     }
 
     .btn_sign {
-        background-color: #191919;
+        background-color:  var(--color-text-three);
         color: var(--color-text-one) !important;
         border-radius: 13px;
         font-size: 13px !important;
@@ -357,7 +358,7 @@ input::placeholder {
 
     .btn_sign2 {
         padding: 0 20px !important;
-        background-color: #191919;
+        background-color:  var(--color-text-three);
         color: var(--color-text-one) !important;
         border-radius: 13px;
         border: none;
