@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">ABOUT</a>
@@ -65,22 +65,46 @@
         <div class="text-center my-5">
             <img src="/design_img/patrick_perkins_3wyl_Drjx_H_E_unsplash_4b8f44e77c.jpeg" alt=""
                 class="img-fluid rounded" width="70%">
-            <div class="d-flex mt-2 justify-content-center">
-                <img src="./design_img/patrick_perkins_3wyl_Drjx_H_E_unsplash_4b8f44e77c.jpeg" alt="" width="15%"
-                    class="img-fluid rounded">
-                <img src="./design_img/naomi_hebert_MP_0bga_S_d1c_unsplash_c709666682.jpeg" alt="" width="15%"
-                    class="img-fluid rounded ml-4">
-                <img src="./design_img/ralph_ravi_kayden_Mye_On_Gcib_CQ_unsplash_e4d8cc0b19.jpeg" alt="" width="15%"
-                    class="img-fluid rounded ml-4">
-                <img src="./design_img/deborah_cortelazzi_g_R_Equ_CUXQLI_unsplash_9c5b9e7693.jpeg" alt="" width="15%"
-                    class="img-fluid rounded ml-4">
+                <div class="slideshow-container d-flex container mt-3">
+                    <div class="card-slide">
+                      <!-- Card 1 content -->
+                      <img src="/design_img/patrick_perkins_3wyl_Drjx_H_E_unsplash_4b8f44e77c.jpeg" alt=""
+                      class=" rounded" height="100%" width="100%">
+                    </div>
+                    
+                    <div class="card-slide ml-3">
+                      <!-- Card 2 content -->
+                      <img src="./design_img/naomi_hebert_MP_0bga_S_d1c_unsplash_c709666682.jpeg" alt="" height="100%" width="100%"
+                            class=" rounded ">
+                    </div>
+                    <div class="card-slide ml-3">
+                        <!-- Card 2 content -->
+                        <img src="./design_img/patrick_perkins_3wyl_Drjx_H_E_unsplash_4b8f44e77c.jpeg" alt="" height="100%" width="100%"
+                              class=" rounded ">
+                      </div>
+                      <div class="card-slide ml-3">
+                        <!-- Card 2 content -->
+                        <img src="./design_img/ralph_ravi_kayden_Mye_On_Gcib_CQ_unsplash_e4d8cc0b19.jpeg" alt="" height="100%" width="100%"
+                              class=" rounded ">
+                      </div>
+                      <div class="card-slide ml-3">
+                        <!-- Card 2 content -->
+                        <img src="./design_img/patrick_perkins_3wyl_Drjx_H_E_unsplash_4b8f44e77c.jpeg" alt="" height="100%" width="100%"
+                              class=" rounded ">
+                      </div>
+                  </div>
 
 
 
             </div>
         </div>
 
-        <div>
+       
+        
+
+      
+
+        <div class="container">
             <h2 class=" pb-2 text-center text_sub2 pt-5">Welcome to First-String Homes</h4>
 
                 <p class="welcome text-center">We are a Home Design Consultancy specialising in managing end to end home
@@ -209,6 +233,52 @@
                 </div>
         </div>
     </div>
+
+    <div id="map"></div>
+
+    <div class="slideshow-container d-flex container">
+        <div class="card-slide">
+          <!-- Card 1 content -->
+          <div class="card card_width">
+            <img src="/about_img/about...2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card 1</h5>
+              <p class="card-text">This is a description of Card 1.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card-slide">
+          <!-- Card 2 content -->
+          <div class="card card_width">
+            <img src="/about_img/about...2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card 2</h5>
+              <p class="card-text">This is a description of Card 2.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-slide">
+            <!-- Card 2 content -->
+            <div class="card card_width">
+              <img src="/about_img/about...2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 2</h5>
+                <p class="card-text">This is a description of Card 2.</p>
+              </div>
+            </div>
+          </div>     <div class="card-slide">
+            <!-- Card 2 content -->
+            <div class="card card_width">
+              <img src="/about_img/about...2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card 2</h5>
+                <p class="card-text">This is a description of Card 2.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    
     <footer class="container footer font-weight-normal">
         <div class="d-sm-flex">
             <div class="d-block pl-5  pb-1">
@@ -268,4 +338,29 @@
             reserved.</p>
     </footer>
 
+    <script>
+        function initMap() {
+          // Define the coordinates for the map center
+          var myLatLng = {lat: -34.397, lng: 150.644};
+          
+          // Create a new map centered at the specified coordinates
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 8,
+            center: myLatLng
+          });
+      
+          // Add a marker at the center of the map
+          var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Hello World!'
+          });
+        }
+
+
+        
+      </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+     
 </body>

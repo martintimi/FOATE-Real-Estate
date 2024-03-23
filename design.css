@@ -44,3 +44,18 @@ svg{
      
     }
   }
+ 
+  .slideshow-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card-slide {
+    width: 50%;
+    animation: slide 10s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-400%); }
+  }
