@@ -15,13 +15,13 @@
 .dark_bg{
     background-color: var(--color-text-three);
 }
+
 :root {
-    --color-primary: #f24822;
+    --color-primary:  rgb(10, 10, 46);
     --color-text-one: white;
-    --color-text-two: #e7cc9e9a;
+    --color-text-two: lightblue;
     --color-text-three: #191919;
 }
-
 .flip-card {
     background-color: white;
     width: 300px;

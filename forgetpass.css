@@ -94,10 +94,12 @@ h2{
     transform: translateX(26px);
   }
 
-:root {
-    --color-primary: #f24822;
+
+  :root {
+    --color-primary:  rgb(10, 10, 46);
     --color-text-one: white;
-    --color-text-two: #e7cc9e9a;
+    --color-text-two: lightblue;
+    --color-text-three: #191919;
 }
   .btn_sign {
     background-color: #181918;

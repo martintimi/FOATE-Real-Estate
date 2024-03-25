@@ -4,11 +4,12 @@
 h4{
     color: var(--color-primary);
 }
+
 :root {
-    --color-primary: #f24822;
-    --color-text-one: white;
-    --color-text-two: #e7cc9e9a;
-    --color-text-three: #191919;
+  --color-primary:  rgb(10, 10, 46);
+  --color-text-one: white;
+  --color-text-two: lightblue;
+  --color-text-three: #191919;
 }
 svg{
     color: var(--color-primary) !important;
