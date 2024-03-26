@@ -10,6 +10,45 @@ nav {
 
 
 }
+.hero_wrapper {
+    min-height: 80vh;
+    
+
+}
+.hero_btn{
+    border-radius: 15px !important;
+    padding: 6px 40px !important;
+    font-size: 15px !important;
+}
+.hero-header {
+    margin-top: -5px;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 80vh;
+    background: var(--primary) url(images/Rectangle\ 34625792.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    z-index: 999;
+
+
+}
+nav {
+    /* background-color: rgb(199, 194, 194); */
+    color: white !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0 !important;
+    display: flex;
+
+
+
+
+}
+.hero_container{
+    margin-top: 10% !important;
+}
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -23,8 +62,8 @@ nav ul {
   
   nav ul li a {
     text-decoration: none;
-    color: #333;
     position: relative;
+    color: white !important;
   }
   
   nav ul li a:hover {
@@ -38,7 +77,6 @@ nav ul {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--color-primary); 
     transition: width 0.7s ease;
   }
   
@@ -132,7 +170,7 @@ input {
 }
 
 .head_text4 {
-    color: #406F85;
+    color: white;
     font-size: 21px;
     font-weight: 400;
 }
@@ -210,7 +248,7 @@ input {
 :root {
     --color-primary:  rgb(10, 10, 46);
     --color-text-one: white;
-    --color-text-two: lightblue;
+    --color-text-two: rgb(143,162,189);
     --color-text-three: #191919;
 }
 
