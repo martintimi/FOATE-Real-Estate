@@ -45,3 +45,12 @@
     width: 300px;
     height: 300px;
   }
+
+
+.hero-header2{
+    background-image: url(/investment_img/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152154.jpeg);
+    background-size: 100%;
+    background-position: center;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+}
