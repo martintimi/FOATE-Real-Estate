@@ -1,0 +1,54 @@
+body{
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  body{
+    
+  }
+  :root {
+    --color-primary:  rgb(10, 10, 46);
+    --color-text-one: white;
+    --color-text-two: rgb(143,162,189);
+    --color-text-three: #191919;
+}
+.checked{
+    color: green;
+}
+
+.icon_color i{
+    color: var(--color-text-two);
+}
+p{
+    line-height: 35px;
+}
+.btn_more {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    color: white !important;
+    font-weight: 500;
+    font-size: 20px;
+    background-color:  rgb(143,162,189) !important;
+    margin-top: 6%;
+    padding: 15px 30px !important;
+}
+
+.card{
+    background-color: whitesmoke !important;
+    border: none !important;
+}
+.price{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+.badge{
+    margin-top: 90%;
+    margin-left: 63%;
+    border-radius: 0 !important;
+
+}
